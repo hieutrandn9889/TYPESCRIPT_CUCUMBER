@@ -5,6 +5,7 @@ import {} from 'jasmine';
 const chai = require('chai').use(require('chai-as-promised'));
 const expect = chai.expect;
 const sw: SwPage = new SwPage();
+// update protractor 2x to 4x
 const {Given, When, Then} = require('cucumber');
     Given(/^I open browser on chrome$/, async () => {
         await expect(browser.getTitle()).to.eventually.equal('SWISSCARD SYSTEM CONSOLE');
