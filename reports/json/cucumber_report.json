@@ -1,0 +1,142 @@
+[
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "To search cucumber in google",
+    "tags": [],
+    "uri": "/Users/hieutran/Desktop/TYPESCRIPT_CUCUMBER/e2e/features/sw.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Delete account",
+        "tags": [
+          {
+            "line": 3,
+            "name": "@sw"
+          }
+        ],
+        "id": "to-search-cucumber-in-google;delete-account",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open browser on chrome",
+            "result": {
+              "status": "passed",
+              "duration": 20
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/hieutran/Desktop/TYPESCRIPT_CUCUMBER/node_modules/cucumber/lib/index.js:176"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I input username \"hieutran\"",
+            "result": {
+              "status": "passed",
+              "duration": 1225
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/hieutran/Desktop/TYPESCRIPT_CUCUMBER/node_modules/cucumber/lib/index.js:176"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I input password \"11111aA@1111\"",
+            "result": {
+              "status": "passed",
+              "duration": 1166
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/hieutran/Desktop/TYPESCRIPT_CUCUMBER/node_modules/cucumber/lib/index.js:176"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click login button",
+            "result": {
+              "status": "passed",
+              "duration": 2969
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/hieutran/Desktop/TYPESCRIPT_CUCUMBER/node_modules/cucumber/lib/index.js:176"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click customer button",
+            "result": {
+              "status": "passed",
+              "duration": 5306
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/hieutran/Desktop/TYPESCRIPT_CUCUMBER/node_modules/cucumber/lib/index.js:176"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I input autotest \"autotest_77\"",
+            "result": {
+              "status": "passed",
+              "duration": 1185
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/hieutran/Desktop/TYPESCRIPT_CUCUMBER/node_modules/cucumber/lib/index.js:176"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click search user button",
+            "result": {
+              "status": "passed",
+              "duration": 9885
+            },
+            "line": 11,
+            "match": {
+              "location": "/Users/hieutran/Desktop/TYPESCRIPT_CUCUMBER/node_modules/cucumber/lib/index.js:176"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click delete button",
+            "result": {
+              "status": "passed",
+              "duration": 1004
+            },
+            "line": 12,
+            "match": {
+              "location": "/Users/hieutran/Desktop/TYPESCRIPT_CUCUMBER/node_modules/cucumber/lib/index.js:176"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/hieutran/Desktop/TYPESCRIPT_CUCUMBER/e2e/support/hooks.ts:20"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "to-search-cucumber-in-google"
+  }
+]
