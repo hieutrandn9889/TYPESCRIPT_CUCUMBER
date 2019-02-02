@@ -14,7 +14,7 @@ defineSupportCode(function ({ registerHandler, registerListener, After, setDefau
     const targetJson = jsonReports + '/cucumber_report.json';
 
     registerHandler('BeforeFeature', function (event, callback) {
-        browser.get('https://swisscard-dev.smartdev.vn/admin/login.do');
+        browser.get('https://www.google.com/');
         setTimeout(callback, 5000);
     });
 
