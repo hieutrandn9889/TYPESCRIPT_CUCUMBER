@@ -34,6 +34,6 @@ exports.config = {
     strict: true,
     format: ['pretty'],
     require: ['./e2e/stepdefinitions/*.spec.ts', './e2e/support/*.ts'],
-    tags: '@CucumberScenario'
+    tags: '@CucumberScenario or @TestGoogle or @sw'
   }
 };

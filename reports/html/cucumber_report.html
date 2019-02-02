@@ -426,21 +426,28 @@
   <h1>Cucumber Report</h1>
 
   <h2 class="component"></h2>
-  <h3 class="timestamp">2019-02-02 03:40:56</h3>
+  <h3 class="timestamp">2019-02-02 10:30:52</h3>
 </header>
   <ul class="summary">
-    <li>1 Features</li>
-    <li>1 Scenarios</li>
+    <li>2 Features</li>
+    <li>3 Scenarios</li>
     <li> Steps</li>
-    <li class="passed print-hide">1 Passed scenarios</li>
-    <li class="failed print-hide">0 Failing scenarios</li>
+    <li class="passed print-hide">2 Passed scenarios</li>
+    <li class="failed print-hide">1 Failing scenarios</li>
     <li class="passed print-hide"> Passed steps</li>
     <li class="failed print-hide"> Failing steps</li>
     <li class="skipped print-hide"> Skipped steps</li>
-    <li>Status <span class="passed">passed</span></li>
+    <li>Status <span class="failed">failed</span></li>
   </ul>
 
   <ul class="feature-list print-hide">
+      <li class="failed">
+        <a href="#F_to-search-cucumber-in-google" title="To search cucumber in google">To search cucumber in google</a>
+        <ul class="scenario-list">
+            <li class="failed"><a href="#S_to-search-cucumber-in-google;test-google" title="Test google">Test google</a></li>
+            <li class="passed"><a href="#S_to-search-cucumber-in-google;cucumber-google-search" title="Cucumber Google Search">Cucumber Google Search</a></li>
+        </ul>
+      </li>
       <li class="passed">
         <a href="#F_to-search-cucumber-in-google" title="To search cucumber in google">To search cucumber in google</a>
         <ul class="scenario-list">
@@ -472,6 +479,18 @@
         <th>Status</th>
       </tr>
 
+        <tr class="failed">
+          <td>To search cucumber in google</td>
+          <td class="scenarios-all"></td>
+          <td class="scenarios-passed passed"></td>
+          <td class="scenarios-failed failed"></td>
+          <td class="steps-all"></td>
+          <td class="steps-passed passed"></td>
+          <td class="steps-failed failed"></td>
+          <td class="steps-skipped skipped"></td>
+          <td class="duration">2.9 s</td>
+          <td class="status">failed</td>
+        </tr>
         <tr class="passed">
           <td>To search cucumber in google</td>
           <td class="scenarios-all"></td>
@@ -495,6 +514,125 @@
       <p class="filename">D:\TYPESCRIPT_CUCUMBER\e2e\features\cucumber.feature</p>
 
       <p class="story"></p>
+        <h3 id="S_to-search-cucumber-in-google;test-google">
+          Scenario: Test google
+            <span class="scenario-tag">@TestGoogle</span>
+        </h3>
+
+        <table>
+          <tr class="header-row">
+            <th style="width: 100px;">Condition</th>
+            <th>Step</th>
+            <th style="width: 100px;">Line</th>
+            <th class="duration" style="width: 100px;">Duration</th>
+            <th style="width: 100px;">Status</th>
+          </tr>
+
+            <tr class="passed">
+              <td>Given </td>
+              <td>
+                I open browser
+                <table class="datatable">
+                <!--  -->
+                </table>
+              </td>
+              <td>12</td>
+              <td class="duration">0.01 s</td>
+              <td class="status">passed</td>
+            </tr>
+
+            <tr class="hidden passed">
+              <td class="trace" colspan="4">
+                <pre></pre>
+              </td>
+              <td class="screenshot-link" data-index="0"></td>
+            </tr>
+            <tr class="passed">
+              <td>Then </td>
+              <td>
+                I input &quot;monday&quot;
+                <table class="datatable">
+                <!--  -->
+                </table>
+              </td>
+              <td>13</td>
+              <td class="duration">1.21 s</td>
+              <td class="status">passed</td>
+            </tr>
+
+            <tr class="hidden passed">
+              <td class="trace" colspan="4">
+                <pre></pre>
+              </td>
+              <td class="screenshot-link" data-index="0"></td>
+            </tr>
+            <tr class="passed">
+              <td>Then </td>
+              <td>
+                I enter keyboard
+                <table class="datatable">
+                <!--  -->
+                </table>
+              </td>
+              <td>14</td>
+              <td class="duration">1.38 s</td>
+              <td class="status">passed</td>
+            </tr>
+
+            <tr class="hidden passed">
+              <td class="trace" colspan="4">
+                <pre></pre>
+              </td>
+              <td class="screenshot-link" data-index="0"></td>
+            </tr>
+            <tr class="failed">
+              <td>When </td>
+              <td>
+                I click button audio
+                <table class="datatable">
+                <!--  -->
+                </table>
+              </td>
+              <td>15</td>
+              <td class="duration">0.05 s</td>
+              <td class="status">failed</td>
+            </tr>
+
+            <tr class="hidden failed">
+              <td class="trace" colspan="4">
+                <pre>NoSuchElementError: No element found using locator: By(css selector, *[id&#x3D;&quot;gsri_ok0&quot;])
+    at elementArrayFinder.getWebElements.then (D:\TYPESCRIPT_CUCUMBER\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (D:\TYPESCRIPT_CUCUMBER\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (D:\TYPESCRIPT_CUCUMBER\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (D:\TYPESCRIPT_CUCUMBER\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (D:\TYPESCRIPT_CUCUMBER\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at D:\TYPESCRIPT_CUCUMBER\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal&#x2F;process&#x2F;next_tick.js:68:7)Error
+    at ElementArrayFinder.applyAction_ (D:\TYPESCRIPT_CUCUMBER\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as click] (D:\TYPESCRIPT_CUCUMBER\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as click] (D:\TYPESCRIPT_CUCUMBER\node_modules\protractor\built\element.js:831:22)
+    at GooglePage.&lt;anonymous&gt; (D:\TYPESCRIPT_CUCUMBER\e2e\actions\commons\basePage.ts:49:58)
+    at step (D:\TYPESCRIPT_CUCUMBER\e2e\actions\commons\basePage.ts:32:23)
+    at Object.next (D:\TYPESCRIPT_CUCUMBER\e2e\actions\commons\basePage.ts:13:53)
+    at D:\TYPESCRIPT_CUCUMBER\e2e\actions\commons\basePage.ts:7:71
+    at new Promise (&lt;anonymous&gt;)
+    at __awaiter (D:\TYPESCRIPT_CUCUMBER\e2e\actions\commons\basePage.ts:3:12)
+    at GooglePage.BasePage.clickToElement (D:\TYPESCRIPT_CUCUMBER\e2e\actions\commons\basePage.ts:46:16)
+    at GooglePage.clickToAudioBtn (D:\TYPESCRIPT_CUCUMBER\e2e\actions\pages\googlePage.ts:38:21)
+    at D:\TYPESCRIPT_CUCUMBER\e2e\stepdefinitions\googleSteps.spec.ts:76:53
+    at step (D:\TYPESCRIPT_CUCUMBER\e2e\stepdefinitions\googleSteps.spec.ts:32:23)
+    at Object.next (D:\TYPESCRIPT_CUCUMBER\e2e\stepdefinitions\googleSteps.spec.ts:13:53)
+    at D:\TYPESCRIPT_CUCUMBER\e2e\stepdefinitions\googleSteps.spec.ts:7:71
+    at new Promise (&lt;anonymous&gt;)</pre>
+              </td>
+              <td class="screenshot-link" data-index="0"></td>
+            </tr>
+
+        </table>
+
+
+        
+        <img src="test_google-18-1.png" />
         <h3 id="S_to-search-cucumber-in-google;cucumber-google-search">
           Scenario: Cucumber Google Search
             <span class="scenario-tag">@CucumberScenario</span>
@@ -537,7 +675,7 @@
                 </table>
               </td>
               <td>6</td>
-              <td class="duration">0.16 s</td>
+              <td class="duration">0.18 s</td>
               <td class="status">passed</td>
             </tr>
 
@@ -556,7 +694,7 @@
                 </table>
               </td>
               <td>7</td>
-              <td class="duration">0.05 s</td>
+              <td class="duration">0.07 s</td>
               <td class="status">passed</td>
             </tr>
 
@@ -592,6 +730,109 @@
         
         
     </section>
+    <section class="report" id="F_to-search-cucumber-in-google">
+      <h2>Feature: To search cucumber in google <span class="tags"></span></h2>
+
+      <p class="filename">D:\TYPESCRIPT_CUCUMBER\e2e\features\sw.feature</p>
+
+      <p class="story"></p>
+        <h3 id="S_to-search-cucumber-in-google;cucumber-google-search">
+          Scenario: Cucumber Google Search
+            <span class="scenario-tag">@sw</span>
+        </h3>
+
+        <table>
+          <tr class="header-row">
+            <th style="width: 100px;">Condition</th>
+            <th>Step</th>
+            <th style="width: 100px;">Line</th>
+            <th class="duration" style="width: 100px;">Duration</th>
+            <th style="width: 100px;">Status</th>
+          </tr>
+
+            <tr class="passed">
+              <td>Given </td>
+              <td>
+                I am on google page
+                <table class="datatable">
+                <!--  -->
+                </table>
+              </td>
+              <td>17</td>
+              <td class="duration"></td>
+              <td class="status">passed</td>
+            </tr>
+
+            <tr class="hidden passed">
+              <td class="trace" colspan="4">
+                <pre></pre>
+              </td>
+              <td class="screenshot-link" data-index="1"></td>
+            </tr>
+            <tr class="passed">
+              <td>When </td>
+              <td>
+                I type &quot;Cucumber&quot;
+                <table class="datatable">
+                <!--  -->
+                </table>
+              </td>
+              <td>18</td>
+              <td class="duration">0.14 s</td>
+              <td class="status">passed</td>
+            </tr>
+
+            <tr class="hidden passed">
+              <td class="trace" colspan="4">
+                <pre></pre>
+              </td>
+              <td class="screenshot-link" data-index="1"></td>
+            </tr>
+            <tr class="passed">
+              <td>Then </td>
+              <td>
+                I clear the search text
+                <table class="datatable">
+                <!--  -->
+                </table>
+              </td>
+              <td>19</td>
+              <td class="duration">0.07 s</td>
+              <td class="status">passed</td>
+            </tr>
+
+            <tr class="hidden passed">
+              <td class="trace" colspan="4">
+                <pre></pre>
+              </td>
+              <td class="screenshot-link" data-index="1"></td>
+            </tr>
+            <tr class="passed">
+              <td>Then </td>
+              <td>
+                I click on search button
+                <table class="datatable">
+                <!--  -->
+                </table>
+              </td>
+              <td>20</td>
+              <td class="duration"></td>
+              <td class="status">passed</td>
+            </tr>
+
+            <tr class="hidden passed">
+              <td class="trace" colspan="4">
+                <pre></pre>
+              </td>
+              <td class="screenshot-link" data-index="1"></td>
+            </tr>
+
+        </table>
+
+
+        
+        
+    </section>
 
 <section class="report">
   <h2>Tags statistics</h2>
@@ -617,17 +858,17 @@
         <th>Status</th>
       </tr>
 
-        <tr class="passed">
+        <tr class="failed">
           <td></td>
-          <td class="scenarios-all">1</td>
-          <td class="scenarios-passed passed">1</td>
-          <td class="scenarios-failed failed">0</td>
-          <td class="steps-all">4</td>
-          <td class="steps-passed passed">4</td>
-          <td class="steps-failed failed">0</td>
+          <td class="scenarios-all">3</td>
+          <td class="scenarios-passed passed">2</td>
+          <td class="scenarios-failed failed">1</td>
+          <td class="steps-all">12</td>
+          <td class="steps-passed passed">11</td>
+          <td class="steps-failed failed">1</td>
           <td class="steps-skipped skipped">0</td>
-          <td class="duration">0.21 s</td>
-          <td class="status">passed</td>
+          <td class="duration">3.11 s</td>
+          <td class="status">failed</td>
         </tr>
 
     </table>
