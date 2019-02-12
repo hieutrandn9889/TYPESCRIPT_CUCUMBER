@@ -6,7 +6,7 @@ Feature: To search cucumber in google
         When I type "Cucumber"
         Then I clear the search text
         Then I click on search button
-        
+
     @TestGoogle
     Scenario Outline: Test google
         Given I open browser

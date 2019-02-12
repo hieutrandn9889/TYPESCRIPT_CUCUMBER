@@ -5,9 +5,12 @@ const { SpecReporter } = require('jasmine-spec-reporter');
 
 exports.config = {
   allScriptsTimeout: 11000,
+  // specs: [
+  //   './e2e/**/*.feature'
+  // ],
   specs: [
-    './e2e/**/*.feature'
-  ],
+      './e2e/**/test.feature'
+    ],
   capabilities: {
     'browserName': 'chrome'
   },
@@ -34,6 +37,6 @@ exports.config = {
     strict: true,
     format: ['pretty'],
     require: ['./e2e/stepdefinitions/*.spec.ts', './e2e/support/*.ts'],
-    tags: '@CucumberScenario or @TestGoogle or @sw'
+    tags: '@testProtractor'
   }
 };
