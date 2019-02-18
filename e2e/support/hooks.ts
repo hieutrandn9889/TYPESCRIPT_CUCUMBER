@@ -33,14 +33,14 @@ defineSupportCode(function ({ registerHandler, registerListener, After, setDefau
         jsonFile: targetJson,
         output: htmlReports + '/cucumber_reporter.html',
         reportSuiteAsScenarios: true,
-        launchReport: true
+        launchReport: false
     };
 
     const cucumberReportOptions = {
         source: targetJson,
         dest: htmlReports,
         name: 'cucumber_report.html',
-        title: 'Cucumber Report'
+        title: 'Cucumber Report',
     };
 
     const logFn = string => {

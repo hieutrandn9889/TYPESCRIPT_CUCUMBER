@@ -18,6 +18,7 @@ export class GooglePage extends BasePage {
     //     this.sendkeyToElementValue(search.searchTextBox, value);
     //     return this.clickToElement(search.searchButton);
     // }
+    
     // clear and input text (khai bao tuong minh cho ham void)
     public typeInputKey(value: string): Promise<void>  {
         return this.sendkeyToElementValue(search.searchTextBox, value);

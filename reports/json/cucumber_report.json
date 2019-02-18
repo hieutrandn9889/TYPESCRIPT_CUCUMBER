@@ -24,11 +24,50 @@
             "name": "I open website and check title",
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 5220
             },
             "line": 5,
             "match": {
-              "location": "/Users/hieu/Desktop/TYPESCRIPT_CUCUMBER/e2e/stepdefinitions/test.spec.ts:6"
+              "location": "/Users/hieu/Desktop/TYPESCRIPT_CUCUMBER/e2e/stepdefinitions/test.spec.ts:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I get title of page",
+            "result": {
+              "status": "passed",
+              "duration": 10
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/hieu/Desktop/TYPESCRIPT_CUCUMBER/e2e/stepdefinitions/test.spec.ts:30"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I go to google page",
+            "result": {
+              "status": "passed",
+              "duration": 4709
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/hieu/Desktop/TYPESCRIPT_CUCUMBER/e2e/stepdefinitions/test.spec.ts:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I refresh page",
+            "result": {
+              "status": "passed",
+              "duration": 3010
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/hieu/Desktop/TYPESCRIPT_CUCUMBER/e2e/stepdefinitions/test.spec.ts:46"
             }
           },
           {
