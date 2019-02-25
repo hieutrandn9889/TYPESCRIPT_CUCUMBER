@@ -24,7 +24,7 @@
             "name": "I open website and check title",
             "result": {
               "status": "passed",
-              "duration": 5220
+              "duration": 5320
             },
             "line": 5,
             "match": {
@@ -50,7 +50,7 @@
             "name": "I go to google page",
             "result": {
               "status": "passed",
-              "duration": 4709
+              "duration": 4980
             },
             "line": 7,
             "match": {
@@ -63,7 +63,7 @@
             "name": "I refresh page",
             "result": {
               "status": "passed",
-              "duration": 3010
+              "duration": 3015
             },
             "line": 8,
             "match": {
