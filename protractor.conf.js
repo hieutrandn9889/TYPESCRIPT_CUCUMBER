@@ -9,7 +9,7 @@ exports.config = {
   //   './e2e/**/*.feature'
   // ],
   specs: [
-      './e2e/**/test.feature'
+      './e2e/**/loginPage.feature'
     ],
   capabilities: {
     'browserName': 'chrome'
@@ -37,6 +37,6 @@ exports.config = {
     strict: true,
     format: ['pretty'],
     require: ['./e2e/stepdefinitions/*.spec.ts', './e2e/support/*.ts'],
-    tags: '@testProtractor'
+    tags: '@loginWithReadUser'
   }
 };

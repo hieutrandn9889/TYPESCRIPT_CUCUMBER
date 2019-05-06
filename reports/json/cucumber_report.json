@@ -2,72 +2,72 @@
   {
     "keyword": "Feature",
     "line": 1,
-    "name": "To test protractor",
+    "name": "To search cucumber in google",
     "tags": [],
-    "uri": "/Users/hieu/Desktop/TYPESCRIPT_CUCUMBER/e2e/features/test.feature",
+    "uri": "/Users/hieu/Desktop/TYPESCRIPT_CUCUMBER/e2e/features/loginPage.feature",
     "elements": [
       {
         "keyword": "Scenario",
-        "line": 4,
-        "name": "Cucumber Google Search",
+        "line": 11,
+        "name": "Verify login mydti readuser/readuser",
         "tags": [
           {
             "line": 3,
-            "name": "@testProtractor"
+            "name": "@loginWithReadUser"
           }
         ],
-        "id": "to-test-protractor;cucumber-google-search",
+        "id": "to-search-cucumber-in-google;verify-login-mydti-readuser/readuser",
         "steps": [
           {
             "arguments": [],
-            "keyword": "Given ",
-            "name": "I open website and check title",
+            "keyword": "Then ",
+            "name": "I input company \"dti\"",
             "result": {
               "status": "passed",
-              "duration": 5320
+              "duration": 1199
             },
             "line": 5,
             "match": {
-              "location": "/Users/hieu/Desktop/TYPESCRIPT_CUCUMBER/e2e/stepdefinitions/test.spec.ts:16"
+              "location": "/Users/hieu/Desktop/TYPESCRIPT_CUCUMBER/e2e/stepdefinitions/loginSteps.spec.ts:17"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "I get title of page",
+            "name": "I input username to login \"readuser\"",
             "result": {
               "status": "passed",
-              "duration": 10
+              "duration": 1160
             },
             "line": 6,
             "match": {
-              "location": "/Users/hieu/Desktop/TYPESCRIPT_CUCUMBER/e2e/stepdefinitions/test.spec.ts:30"
+              "location": "/Users/hieu/Desktop/TYPESCRIPT_CUCUMBER/e2e/stepdefinitions/loginSteps.spec.ts:20"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "I go to google page",
+            "name": "I input password to login \"readuser\"",
             "result": {
               "status": "passed",
-              "duration": 4980
+              "duration": 1151
             },
             "line": 7,
             "match": {
-              "location": "/Users/hieu/Desktop/TYPESCRIPT_CUCUMBER/e2e/stepdefinitions/test.spec.ts:42"
+              "location": "/Users/hieu/Desktop/TYPESCRIPT_CUCUMBER/e2e/stepdefinitions/loginSteps.spec.ts:23"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "I refresh page",
+            "name": "I click log in button",
             "result": {
               "status": "passed",
-              "duration": 3015
+              "duration": 1
             },
             "line": 8,
             "match": {
-              "location": "/Users/hieu/Desktop/TYPESCRIPT_CUCUMBER/e2e/stepdefinitions/test.spec.ts:46"
+              "location": "/Users/hieu/Desktop/TYPESCRIPT_CUCUMBER/e2e/stepdefinitions/loginSteps.spec.ts:26"
             }
           },
           {
@@ -85,6 +85,6 @@
         ]
       }
     ],
-    "id": "to-test-protractor"
+    "id": "to-search-cucumber-in-google"
   }
 ]

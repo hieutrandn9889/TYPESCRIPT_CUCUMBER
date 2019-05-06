@@ -13,7 +13,8 @@ export abstract class BasePage {
 
     // sendkey to element
     protected async sendkeyToElement(element: ElementFinder): Promise<void> {
-        await this._conditions.clickable(element);
+      // await this._conditions.clickable(element);
+        await element.click();
         await element.clear();
         await element.sendKeys();
         await browser.sleep(1000);
@@ -21,7 +22,8 @@ export abstract class BasePage {
 
     // sendkey to element has value
     protected async sendkeyToElementValue(element: ElementFinder, value: string): Promise<void> {
-        await this._conditions.clickable(element);
+        // await this._conditions.clickable(element);
+        await element.click();
         await element.clear();
         await element.sendKeys(value);
         await browser.sleep(1000);

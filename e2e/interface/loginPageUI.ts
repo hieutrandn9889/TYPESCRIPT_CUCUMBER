@@ -1,14 +1,16 @@
 import {$, browser, By, element, ElementFinder} from 'protractor';
 
 export class LoginPageUI {
-    public userName: ElementFinder;
-    public passWord: ElementFinder;
+    public companyTextbox: ElementFinder;
+    public usernameTextbox: ElementFinder;
+    public passwordTextbox: ElementFinder;
     public loginBtn: ElementFinder;
 
     constructor() {
-        this.userName = element(By.id('j_username'));
-        this.passWord = element(By.id('password'));
-        this.loginBtn = element(By.xpath('//input[@value="ADMIN LOGIN"]'));
+        this.companyTextbox  = element(By.xpath('//input[@name="company"]'));
+        this.usernameTextbox = element(By.xpath('//input[@name="username"]'));
+        this.passwordTextbox = element(By.xpath('//input[@name="password"]'));
+        this.loginBtn        = element(By.xpath('//button[@id="login"]'));
     }
 }
 
