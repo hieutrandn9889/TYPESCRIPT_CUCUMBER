@@ -24,11 +24,11 @@
             "name": "I input company \"dti\"",
             "result": {
               "status": "passed",
-              "duration": 1199
+              "duration": 4
             },
             "line": 5,
             "match": {
-              "location": "/Users/hieu/Desktop/TYPESCRIPT_CUCUMBER/e2e/stepdefinitions/loginSteps.spec.ts:17"
+              "location": "/Users/hieu/Desktop/TYPESCRIPT_CUCUMBER/e2e/stepdefinitions/loginSteps.spec.ts:21"
             }
           },
           {
@@ -37,11 +37,11 @@
             "name": "I input username to login \"readuser\"",
             "result": {
               "status": "passed",
-              "duration": 1160
+              "duration": 0
             },
             "line": 6,
             "match": {
-              "location": "/Users/hieu/Desktop/TYPESCRIPT_CUCUMBER/e2e/stepdefinitions/loginSteps.spec.ts:20"
+              "location": "/Users/hieu/Desktop/TYPESCRIPT_CUCUMBER/e2e/stepdefinitions/loginSteps.spec.ts:24"
             }
           },
           {
@@ -50,11 +50,11 @@
             "name": "I input password to login \"readuser\"",
             "result": {
               "status": "passed",
-              "duration": 1151
+              "duration": 0
             },
             "line": 7,
             "match": {
-              "location": "/Users/hieu/Desktop/TYPESCRIPT_CUCUMBER/e2e/stepdefinitions/loginSteps.spec.ts:23"
+              "location": "/Users/hieu/Desktop/TYPESCRIPT_CUCUMBER/e2e/stepdefinitions/loginSteps.spec.ts:27"
             }
           },
           {
@@ -63,11 +63,11 @@
             "name": "I click log in button",
             "result": {
               "status": "passed",
-              "duration": 1
+              "duration": 2426
             },
             "line": 8,
             "match": {
-              "location": "/Users/hieu/Desktop/TYPESCRIPT_CUCUMBER/e2e/stepdefinitions/loginSteps.spec.ts:26"
+              "location": "/Users/hieu/Desktop/TYPESCRIPT_CUCUMBER/e2e/stepdefinitions/loginSteps.spec.ts:30"
             }
           },
           {
