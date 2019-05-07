@@ -2,6 +2,7 @@ import {BasePage} from '../commons/basePage';
 import { LoginPageUI } from '../../interface/loginPageUI';
 
 const loginPage: LoginPageUI = new LoginPageUI();
+
 export class LoginPage extends BasePage {
 
     // clear and input text username (khai bao tuong minh cho ham void)
